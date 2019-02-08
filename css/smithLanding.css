@@ -1,0 +1,71 @@
+body {
+    background-color: #fdc700;
+}
+
+.background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #003c6c;
+    z-index: 1;
+    -webkit-transform: skewX(4deg);
+    transform: skewX(4deg);
+    -webkit-transform-origin: bottom right;
+    transform-origin: bottom right;
+}
+
+.headerContent {
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+    font-family: Arial, sans-serif;
+    padding-bottom: 20rem;
+    padding-top: 5rem;
+}
+
+.rowz{
+    position: relative;
+    z-index: 3;
+}
+
+.blurby{
+    text-align: center;
+}
+.blurby-text{
+    text-shadow: 2px 2px #000000;
+}
+
+.btn-yellow {
+  background-color: #f29813;
+  border-color: #f29813;
+}
+
+.btn-yellow:active, .btn-yellow:focus, .btn-yellow:hover {
+  background-color: #ffbf00 !important;
+  border-color: #ffbf00 !important;
+}
+
+.btn-blue {
+  background-color: #006aad;
+  border-color: #006aad;
+}
+
+.btn-blue:active, .btn-blue:focus, .btn-blue:hover {
+  background-color: #13a5dc !important;
+  border-color: #13a5dc !important;
+}
+
+.smlinks{
+  padding:15px;
+}
+
+.smbtn{
+  padding:1rem;
+  color:#fff;
+  font-weight: 1000 !important;
+}
