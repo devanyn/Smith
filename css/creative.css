@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 hr {
@@ -20,7 +20,7 @@ hr {
   border-color: #F05F40;
 }
 
-.shadow{
+.text-shadow{
   text-shadow: 3px 3px black;
 }
 
@@ -44,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 .bg-primary {
@@ -328,6 +328,10 @@ header.masthead p {
   padding: 1rem 2rem;
 }
 
+.btn-semi-opaque {
+  opacity: 0.8;
+}
+
 .btn-primary {
   background-color: #f29813;
   border-color: #f29813;
@@ -336,6 +340,7 @@ header.masthead p {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background-color: #ffbf00 !important;
+  opacity: 1;
 }
 
 .btn-primary:active, .btn-primary:focus {
